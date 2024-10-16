@@ -1,0 +1,58 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Faisal Azam Siddiqui",
+      "batch": "Full Stack Web Development with MERN Batch 1",
+      "text": "ওস্তাদ-এর MERN কোর্সটি স্কিল ডেভেলপমেন্টের জন্য অনেক হেল্পফুল একটি কোর্স। আমার প্রতিটি প্রবলেমই তারা লাইভ ক্লাসেই সলভ করার চেষ্টা করেছে। এছাড়াও সাপোর্ট ইন্সট্রাক্টররাও অনেক ভালো। এসব কারণেই MERN এর লার্নিং জার্নিটা আমার জন্য ছিল অসাধারণ।"
+    },
+    {
+      "id": 2,
+      "name": "Shafayet Rana",
+      "batch": "UX/UI Batch 6",
+      "text": "Ostad এর বিশেষত্ত্ব হচ্ছে ওনারা  ডিজাইনের চেয়েও ডিজাইন সাইকোলজিতে ফোকাস বেশি দেয়। যা একজন শিক্ষার্তীর চাকরির ক্ষেত্রে খুব কাজে দেয় ও অন্য দশজন থেকে নিজেকে আলাদা করা যায়। ইন্ডাস্ট্রি ফোকাসড এই প্র্যাক্টিস আমাকে প্রোফেশনালি অনেক হেল্প করেছে।"
+    },
+    {
+      "id": 3,
+      "name": "MD Galib Hasan",
+      "batch": "Data Science Certificate Program Batch 09",
+      "text": "Even though I come from a non-CS background, I felt that understanding data science would help me advance in my profession. In order to do so, I enrolled in an Ostad Data Science course. I believed it would be tough for me to understand without prior knowledge, but after taking the Ostad Data course, I learned that it is simple to crack and that they made it even easier."
+    },
+    {
+      "id": 4,
+      "name": "Faisal Azam Siddiqui",
+      "batch": "Full Stack Web Development with MERN Batch 1",
+      "text": "ওস্তাদ-এর MERN কোর্সটি স্কিল ডেভেলপমেন্টের জন্য অনেক হেল্পফুল একটি কোর্স। আমার প্রতিটি প্রবলেমই তারা লাইভ ক্লাসেই সলভ করার চেষ্টা করেছে। এছাড়াও সাপোর্ট ইন্সট্রাক্টররাও অনেক ভালো। এসব কারণেই MERN এর লার্নিং জার্নিটা আমার জন্য ছিল অসাধারণ।"
+    },
+    {
+      "id": 5,
+      "name": "Shafayet Rana",
+      "batch": "UX/UI Batch 6",
+      "text": "Ostad এর বিশেষত্ত্ব হচ্ছে ওনারা  ডিজাইনের চেয়েও ডিজাইন সাইকোলজিতে ফোকাস বেশি দেয়। যা একজন শিক্ষার্তীর চাকরির ক্ষেত্রে খুব কাজে দেয় ও অন্য দশজন থেকে নিজেকে আলাদা করা যায়। ইন্ডাস্ট্রি ফোকাসড এই প্র্যাক্টিস আমাকে প্রোফেশনালি অনেক হেল্প করেছে।"
+    },
+    {
+      "id": 6,
+      "name": "MD Galib Hasan",
+      "batch": "Data Science Certificate Program Batch 09",
+      "text": "Even though I come from a non-CS background, I felt that understanding data science would help me advance in my profession. In order to do so, I enrolled in an Ostad Data Science course. I believed it would be tough for me to understand without prior knowledge, but after taking the Ostad Data course, I learned that it is simple to crack and that they made it even easier."
+    },
+    {
+      "id": 7,
+      "name": "Faisal Azam Siddiqui",
+      "batch": "Full Stack Web Development with MERN Batch 1",
+      "text": "ওস্তাদ-এর MERN কোর্সটি স্কিল ডেভেলপমেন্টের জন্য অনেক হেল্পফুল একটি কোর্স। আমার প্রতিটি প্রবলেমই তারা লাইভ ক্লাসেই সলভ করার চেষ্টা করেছে। এছাড়াও সাপোর্ট ইন্সট্রাক্টররাও অনেক ভালো। এসব কারণেই MERN এর লার্নিং জার্নিটা আমার জন্য ছিল অসাধারণ।"
+    },
+    {
+      "id": 8,
+      "name": "Shafayet Rana",
+      "batch": "UX/UI Batch 6",
+      "text": "Ostad এর বিশেষত্ত্ব হচ্ছে ওনারা  ডিজাইনের চেয়েও ডিজাইন সাইকোলজিতে ফোকাস বেশি দেয়। যা একজন শিক্ষার্তীর চাকরির ক্ষেত্রে খুব কাজে দেয় ও অন্য দশজন থেকে নিজেকে আলাদা করা যায়। ইন্ডাস্ট্রি ফোকাসড এই প্র্যাক্টিস আমাকে প্রোফেশনালি অনেক হেল্প করেছে।"
+    },
+    {
+      "id": 9,
+      "name": "MD Galib Hasan",
+      "batch": "Data Science Certificate Program Batch 09",
+      "text": "Even though I come from a non-CS background, I felt that understanding data science would help me advance in my profession. In order to do so, I enrolled in an Ostad Data Science course. I believed it would be tough for me to understand without prior knowledge, but after taking the Ostad Data course, I learned that it is simple to crack and that they made it even easier."
+    }
+  ]
+}

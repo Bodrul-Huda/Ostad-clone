@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom borders for large screens */
+.custom-grid > *:nth-child(1) {
+  @apply lg:border-r lg:border-b lg:border-gray-300;
+}
+
+.custom-grid > *:nth-child(2) {
+  @apply lg:border-b lg:border-gray-300;
+}
+
+.custom-grid > *:nth-child(3) {
+  @apply lg:border-l lg:border-b lg:border-gray-300;
+}
+
+.custom-grid > *:nth-child(4) {
+  @apply lg:border-r lg:border-gray-300;
+}
+
+.custom-grid > *:nth-child(6) {
+  @apply lg:border-l lg:border-gray-300;
+}

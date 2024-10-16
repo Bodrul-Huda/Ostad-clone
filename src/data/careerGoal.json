@@ -1,0 +1,40 @@
+{
+  "goals": [
+    {
+      "id": 1728057906907,
+      "title": "Full Stack web development",
+      "courses": "10 courses",
+      "workshops": "9 workshops"
+    },
+    {
+      "id": 1728057906908,
+      "title": "Full Stack web development2",
+      "courses": "10 courses",
+      "workshops": "9 workshops"
+    },
+    {
+      "id": 1728057906900,
+      "title": "Full Stack web development3",
+      "courses": "10 courses",
+      "workshops": "9 workshops"
+    },
+    {
+      "id": 1728057906909,
+      "title": "Full Stack web development4",
+      "courses": "10 courses",
+      "workshops": "9 workshops"
+    },
+    {
+      "id": 1728057906901,
+      "title": "Full Stack web development6",
+      "courses": "10 courses",
+      "workshops": "9 workshops"
+    },
+    {
+      "id": 1728057906903,
+      "title": "Full Stack web development5",
+      "courses": "10 courses",
+      "workshops": "9 workshops"
+    }
+  ]
+}
