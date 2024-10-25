@@ -22,3 +22,8 @@
 .custom-grid > *:nth-child(6) {
   @apply lg:border-l lg:border-gray-300;
 }
+
+.slick-slide {
+  padding: 0 5px; /* Adds space on both sides of the slide */
+  width: auto;
+}

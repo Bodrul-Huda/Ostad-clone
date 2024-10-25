@@ -5,7 +5,7 @@ import { IoCalendarOutline } from "react-icons/io5";
 const PrevWebniar = () => {
   // const { courses } = data;
   const { courses } = prevData;
-  console.log(courses);
+  // console.log(courses);
 
   return (
     <>

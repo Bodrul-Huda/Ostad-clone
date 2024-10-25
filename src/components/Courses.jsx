@@ -1,57 +1,60 @@
 import Tabs from "./Tabs";
-// import { useRef } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 import Card from "./Card";
-// import Tabs2 from "./Tabs2";
 import data from "../data/courseData.json";
 import { FaArrowRight } from "react-icons/fa";
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Courses() {
+  const [cardData, setCardData] = useState([]);
+  const [selectedTab, setSelectedTab] = useState(""); // New state for tracking selected tab
   const { courses } = data;
-  // console.log(courses);
 
-  var settings = {
-    dots: false,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 5,
-  };
+  useEffect(() => {
+    if (courses.length > 0) {
+      // Set the default selected tab to the first category in courses
+      const defaultCategory = courses[0].category;
+      setSelectedTab(defaultCategory);
+      setCardData(
+        courses
+          .filter((course) => course.category === defaultCategory)
+          .slice(0, 8)
+      );
+    }
+  }, [courses]);
+
+  function handleTabClick(title) {
+    setSelectedTab(title);
+    const filteredCourses = courses.filter(
+      (course) => title === course.category
+    );
+    setCardData(filteredCourses.slice(0, 8));
+  }
+
+  // console.log(cardData[0].category);
+
   return (
     <>
-      <div className="container mx-auto bg-white py-6 px-3 text-center rounded-xl">
+      <div className="container mx-auto bg-gray-400 py-6 px-3 text-center rounded-xl">
         <h1 className="text-4xl font-bold">Our Courses</h1>
-        <div className="px-2 mx-2 py-2">
-          <Slider {...settings}>
-            <div>
-              <Tabs />
-            </div>
-            <div>
-              <Tabs />
-            </div>
-            <div>
-              <Tabs />
-            </div>
-            <div>
-              <Tabs />
-            </div>
-            <div>
-              <Tabs />
-            </div>
-            <div>
-              <Tabs />
-            </div>
-          </Slider>
-        </div>
 
-        <Card courses={courses} />
+        <Tabs handleTabClick={handleTabClick} selectedTab={selectedTab} />
+
+        <Card cardData={cardData} />
 
         <div className="flex items-center justify-center">
-          <button className="flex items-center gap-3 py-2 px-40 bg-gray-200 rounded-md hover:bg-slate-300">
-            See All <FaArrowRight />
-          </button>
+          <Link
+            to={`/coursepage/${
+              cardData.length > 0 ? cardData[0].category : ""
+            }`}
+            state={cardData}
+          >
+            <button className="flex items-center gap-3 py-2 px-40 bg-gray-200 rounded-md hover:bg-slate-300">
+              See All <FaArrowRight />
+            </button>
+          </Link>
         </div>
       </div>
     </>

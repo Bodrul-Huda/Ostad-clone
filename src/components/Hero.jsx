@@ -1,6 +1,13 @@
 import { FaArrowRight } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigator = useNavigate();
+
+  function handleClick() {
+    navigator("/coursepage");
+  }
+
   return (
     <>
       <div className="container mx-auto py-4">
@@ -11,7 +18,10 @@ const Hero = () => {
             <h4 className="text-2xl font-extrabold">
               Upgrade your future through Skill Development
             </h4>
-            <button className=" text-white py-3 px-6 rounded-md bg-blue-500 flex items-center justify-between hover:bg-blue-600 focus:bg-blue-600 gap-x-2">
+            <button
+              onClick={handleClick}
+              className=" text-white py-3 px-6 rounded-md bg-blue-500 flex items-center justify-between hover:bg-blue-600 focus:bg-blue-600 gap-x-2"
+            >
               Start Learning <FaArrowRight />
             </button>
             <p className=" py-4 md:py-20 text-red-500 md:text-white text-2xl">

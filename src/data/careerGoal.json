@@ -8,31 +8,43 @@
     },
     {
       "id": 1728057906908,
-      "title": "Full Stack web development2",
+      "title": "Graphic Design",
       "courses": "10 courses",
       "workshops": "9 workshops"
     },
     {
       "id": 1728057906900,
-      "title": "Full Stack web development3",
+      "title": "Product Management & Design",
       "courses": "10 courses",
       "workshops": "9 workshops"
     },
     {
       "id": 1728057906909,
-      "title": "Full Stack web development4",
+      "title": "Business & Marketing",
       "courses": "10 courses",
       "workshops": "9 workshops"
     },
     {
       "id": 1728057906901,
-      "title": "Full Stack web development6",
+      "title": "Data Engineering",
       "courses": "10 courses",
       "workshops": "9 workshops"
     },
     {
-      "id": 1728057906903,
-      "title": "Full Stack web development5",
+      "id": 17280579069013,
+      "title": "Creatives",
+      "courses": "10 courses",
+      "workshops": "9 workshops"
+    },
+    {
+      "id": 17280579069023,
+      "title": "BlockChain Development",
+      "courses": "10 courses",
+      "workshops": "9 workshops"
+    },
+    {
+      "id": 1728057906934,
+      "title": "Ms Office",
       "courses": "10 courses",
       "workshops": "9 workshops"
     }

@@ -1,6 +1,6 @@
 import { FaArrowRight } from "react-icons/fa";
 
-const CodeMama = () => {
+const CodeMamaComponent = () => {
   return (
     <>
       <div className="container mx-auto py-6 px-3 text-center rounded-xl">
@@ -31,4 +31,4 @@ const CodeMama = () => {
   );
 };
 
-export default CodeMama;
+export default CodeMamaComponent;
